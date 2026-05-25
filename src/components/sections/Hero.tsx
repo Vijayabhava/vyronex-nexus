@@ -45,8 +45,8 @@ export function Hero() {
 
           <Reveal delay={250}>
             <p className="mt-8 text-base sm:text-lg text-foreground/70 max-w-xl leading-relaxed">
-              VYRONEX STUDIO creates futuristic websites, premium UI experiences and cinematic
-              digital products with high-performance modern frontend engineering.
+              VYRONEX STUDIO crafts cinematic websites, premium UI experiences, and
+              high-performance digital products — engineered for brands ready to break orbit.
             </p>
           </Reveal>
 

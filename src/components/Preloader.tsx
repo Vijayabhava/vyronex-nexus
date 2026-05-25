@@ -4,10 +4,10 @@ export function Preloader({ onDone }: { onDone: () => void }) {
   const [phase, setPhase] = useState<"fall" | "impact" | "flash" | "done">("fall");
 
   useEffect(() => {
-    const t1 = setTimeout(() => setPhase("impact"), 1600);
-    const t2 = setTimeout(() => setPhase("flash"), 1900);
-    const t3 = setTimeout(() => setPhase("done"), 2900);
-    const t4 = setTimeout(() => onDone(), 3400);
+    const t1 = setTimeout(() => setPhase("impact"), 700);
+    const t2 = setTimeout(() => setPhase("flash"), 950);
+    const t3 = setTimeout(() => setPhase("done"), 1450);
+    const t4 = setTimeout(() => onDone(), 1750);
     return () => [t1, t2, t3, t4].forEach(clearTimeout);
   }, [onDone]);
 
@@ -49,7 +49,7 @@ export function Preloader({ onDone }: { onDone: () => void }) {
           phase === "impact" ? "animate-pulse" : ""
         }`}
         style={{
-          animation: phase === "fall" ? "hammer-fall 1.6s cubic-bezier(.7,.05,.3,1) forwards" : undefined,
+          animation: phase === "fall" ? "hammer-fall 0.7s cubic-bezier(.7,.05,.3,1) forwards" : undefined,
         }}
       >
         <Hammer />

@@ -6,9 +6,15 @@ import { ParticleField } from "@/components/ParticleField";
 import { Navbar } from "@/components/Navbar";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { Hero } from "@/components/sections/Hero";
+import { Stats } from "@/components/sections/Stats";
 import { Services } from "@/components/sections/Services";
+import { Work } from "@/components/sections/Work";
+import { Marquee } from "@/components/sections/Marquee";
+import { Process } from "@/components/sections/Process";
 import { Founders } from "@/components/sections/Founders";
+import { Testimonials } from "@/components/sections/Testimonials";
 import { Contact } from "@/components/sections/Contact";
+import { FAQ } from "@/components/sections/FAQ";
 import { Footer } from "@/components/sections/Footer";
 
 export const Route = createFileRoute("/")({
@@ -38,9 +44,15 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <Stats />
         <Services />
+        <Work />
+        <Marquee />
+        <Process />
         <Founders />
+        <Testimonials />
         <Contact />
+        <FAQ />
       </main>
       <Footer />
     </>

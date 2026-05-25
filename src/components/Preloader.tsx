@@ -49,7 +49,7 @@ export function Preloader({ onDone }: { onDone: () => void }) {
           phase === "impact" ? "animate-pulse" : ""
         }`}
         style={{
-          animation: phase === "fall" ? "hammer-fall 1.6s cubic-bezier(.7,.05,.3,1) forwards" : undefined,
+          animation: phase === "fall" ? "hammer-fall 0.7s cubic-bezier(.7,.05,.3,1) forwards" : undefined,
         }}
       >
         <Hammer />

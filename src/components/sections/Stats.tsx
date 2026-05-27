@@ -1,10 +1,10 @@
 import { Reveal } from "@/components/Reveal";
 
 const stats = [
-  { n: "50+", l: "PROJECTS LAUNCHED" },
-  { n: "12", l: "COUNTRIES SERVED" },
-  { n: "99", l: "LIGHTHOUSE SCORE" },
+  { n: "100%", l: "CLIENT FOCUSED" },
+  { n: "99+", l: "LIGHTHOUSE SCORE" },
   { n: "24/7", l: "ENGINEERING MODE" },
+  { n: "∞", l: "ATTENTION TO DETAIL" },
 ];
 
 export function Stats() {

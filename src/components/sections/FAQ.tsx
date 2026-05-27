@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "How do I start?",
-    a: "Ping us on Instagram, WhatsApp, X, or email. Tell us your vision — we'll send back a launch plan.",
+    a: "Reach out via email, Instagram, X or Telegram. Tell us your vision — we'll send back a tailored launch plan within 24 hours.",
   },
 ];
 

@@ -4,9 +4,9 @@ import logo from "@/assets/logo.png";
 const links = [
   { label: "HOME", href: "#home" },
   { label: "SERVICES", href: "#services" },
-  { label: "WORK", href: "#work" },
   { label: "PROCESS", href: "#process" },
   { label: "FOUNDERS", href: "#founders" },
+  { label: "SIGNALS", href: "#testimonials" },
   { label: "CONTACT", href: "#contact" },
 ];
 

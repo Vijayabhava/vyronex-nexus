@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import { Instagram, Github, Mail, Send } from "lucide-react";
+import { Instagram, Github, Mail } from "lucide-react";
 
 const XIcon = ({ className = "" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden>
@@ -10,10 +10,9 @@ const XIcon = ({ className = "" }: { className?: string }) => (
 const EMAIL = "studiovyronex@gmail.com";
 
 const socials = [
-  { icon: Instagram, href: "https://www.instagram.com/vyronexstudio/", label: "Instagram" },
+  { icon: Instagram, href: "https://www.instagram.com/vyronexstudio?utm_source=qr&igsh=eXdyemlyMHRyYmFr", label: "Instagram" },
   { icon: XIcon, href: "https://x.com/VYRONEXSTUxg", label: "X" },
   { icon: Github, href: "https://github.com/Vijayabhava", label: "GitHub" },
-  { icon: Send, href: "https://t.me/share/url?url=&text=Hello%20VYRONEX%20STUDIO", label: "Telegram" },
   { icon: Mail, href: `mailto:${EMAIL}?subject=Project%20Inquiry%20—%20VYRONEX%20STUDIO`, label: "Email" },
 ];
 

@@ -124,29 +124,6 @@ export function Contact() {
           })}
         </div>
 
-        <Reveal delay={500}>
-          <div className="mt-20 text-center glass-strong rounded-3xl p-12 max-w-3xl mx-auto relative overflow-hidden">
-            <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-96 h-96 rounded-full blur-3xl"
-              style={{ background: "radial-gradient(circle, rgba(123,97,255,0.3), transparent 70%)" }}
-            />
-            <div className="relative">
-              <div className="text-xs tracking-[0.5em] text-cyan-300/80 font-display">READY TO LAUNCH?</div>
-              <h3 className="mt-4 font-display text-3xl sm:text-4xl font-black">
-                Your <span className="text-gradient-neon">cinematic website</span> starts here.
-              </h3>
-              <p className="mt-4 text-foreground/60 max-w-xl mx-auto text-sm">
-                We don't just design websites — we engineer digital experiences that move at the speed of imagination.
-              </p>
-              <a
-                href={mailto}
-                className="inline-block mt-8 rounded-full px-10 py-4 font-display text-sm tracking-[0.3em] text-black hover:-translate-y-1 transition-all"
-                style={{ background: "var(--gradient-neon)", boxShadow: "var(--shadow-glow)" }}
-              >
-                START A PROJECT
-              </a>
-            </div>
-          </div>
-        </Reveal>
       </div>
     </section>
   );

@@ -6,56 +6,56 @@ const testimonials = [
   {
     quote:
       "VYRONEX didn't just build a website — they engineered an experience. Our launch broke every record we had.",
-    name: "ARJUN MEHTA",
-    role: "Founder · Nova Commerce",
+    name: "SANJIT DUTTA",
+    role: "PWC",
   },
   {
     quote:
       "It feels like the future shipped early. The motion, the polish, the speed — absolutely cinematic.",
-    name: "PRIYA RAO",
-    role: "CMO · Aether Labs",
+    name: "SUBHADEEP ROY",
+    role: "AURADEVS",
   },
   {
     quote:
       "Every detail engineered with obsession. Our investors thought we hired a Hollywood studio.",
-    name: "RAHUL VERMA",
-    role: "CEO · Orbit Finance",
+    name: "SNIKDHENDU PRAMANIK",
+    role: "TCS",
   },
   {
     quote:
       "From the first frame to the final pixel, VYRONEX delivered a brand presence we didn't think was possible.",
-    name: "ANANYA KAPOOR",
-    role: "Head of Brand · Lumen Studios",
+    name: "SAMYAK MISHRA",
+    role: "FRACTAL ANALYTICS",
   },
   {
     quote:
       "Pixel-perfect, blazing fast, and visually stunning. They redefined what our product page could be.",
-    name: "VIKRAM SINGH",
-    role: "Product Lead · NorthStar AI",
+    name: "SIBELE PAL",
+    role: "TCS",
   },
   {
     quote:
       "Working with VYRONEX felt like assembling a digital Avengers team. Strategy, design, code — all elite.",
-    name: "SNEHA IYER",
-    role: "Founder · Helix Health",
+    name: "SUMIT PARIRA",
+    role: "TCS",
   },
   {
     quote:
       "Premium isn't a word we throw around. VYRONEX earned it on day one and never let it go.",
-    name: "KARAN DESAI",
-    role: "Director · Vertex Ventures",
+    name: "SAGNIK MANNA",
+    role: "TCS",
   },
   {
     quote:
       "The cinematic feel of our new identity put us three years ahead of competitors. Worth every second.",
-    name: "MEERA NAIR",
-    role: "CEO · Solara Cloud",
+    name: "ABIR AKHULI",
+    role: "HOUSE OF ED TECH",
   },
   {
     quote:
       "Our conversion rate doubled within a month. The site doesn't just look futuristic — it performs.",
-    name: "ADITYA RAJ",
-    role: "Growth Lead · Pulse Mobility",
+    name: "MUSKAAN MOHTA",
+    role: "TCS",
   },
 ];
 

@@ -19,8 +19,8 @@ import { Footer } from "@/components/sections/Footer";
 export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
+    title: "VYRONEX STUDIO — We Engineer Digital Presence",
     meta: [
-      { title: "VYRONEX STUDIO — We Engineer Digital Presence" },
       {
         name: "description",
         content:
@@ -34,6 +34,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const [loading, setLoading] = useState(true);
+
   return (
     <>
       {loading && <Preloader onDone={() => setLoading(false)} />}

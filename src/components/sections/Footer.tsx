@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import { Instagram, Github, Mail, MessageCircle, Send } from "lucide-react";
+import { Instagram, Github, Mail, Send } from "lucide-react";
 
 const XIcon = ({ className = "" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden>
@@ -7,13 +7,14 @@ const XIcon = ({ className = "" }: { className?: string }) => (
   </svg>
 );
 
+const EMAIL = "studiovyronex@gmail.com";
+
 const socials = [
-  { icon: Instagram, href: "https://instagram.com/vyronexstudio", label: "Instagram" },
+  { icon: Instagram, href: "https://www.instagram.com/vyronexstudio/", label: "Instagram" },
   { icon: XIcon, href: "https://x.com/VYRONEXSTUxg", label: "X" },
   { icon: Github, href: "https://github.com/Vijayabhava", label: "GitHub" },
-  { icon: Send, href: "https://t.me/vyronexstudio", label: "Telegram" },
-  { icon: MessageCircle, href: "https://wa.me/", label: "WhatsApp" },
-  { icon: Mail, href: "mailto:studiovyronex@gmail.com", label: "Email" },
+  { icon: Send, href: "https://t.me/share/url?url=&text=Hello%20VYRONEX%20STUDIO", label: "Telegram" },
+  { icon: Mail, href: `mailto:${EMAIL}?subject=Project%20Inquiry%20—%20VYRONEX%20STUDIO`, label: "Email" },
 ];
 
 export function Footer() {
@@ -43,9 +44,9 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-foreground/70">
               <li><a href="#home" className="hover:text-cyan-300 transition">Home</a></li>
               <li><a href="#services" className="hover:text-cyan-300 transition">Services</a></li>
-              <li><a href="#work" className="hover:text-cyan-300 transition">Work</a></li>
               <li><a href="#process" className="hover:text-cyan-300 transition">Process</a></li>
               <li><a href="#founders" className="hover:text-cyan-300 transition">Founders</a></li>
+              <li><a href="#testimonials" className="hover:text-cyan-300 transition">Testimonials</a></li>
               <li><a href="#contact" className="hover:text-cyan-300 transition">Contact</a></li>
             </ul>
           </div>
@@ -64,7 +65,7 @@ export function Footer() {
                 );
               })}
             </div>
-            <p className="mt-5 text-xs text-foreground/50 tracking-wider">studiovyronex@gmail.com</p>
+            <p className="mt-5 text-xs text-foreground/50 tracking-wider">{EMAIL}</p>
           </div>
         </div>
 

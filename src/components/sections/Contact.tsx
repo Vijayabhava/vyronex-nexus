@@ -1,5 +1,7 @@
 import { Reveal } from "@/components/Reveal";
-import { Mail, Instagram, Github, Send } from "lucide-react";
+import { Mail, Instagram, Github } from "lucide-react";
+
+const INSTAGRAM_URL = "https://www.instagram.com/vyronexstudio?utm_source=qr&igsh=eXdyemlyMHRyYmFr";
 
 const XIcon = ({ className = "" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden>
@@ -39,7 +41,7 @@ const cards = [
     icon: Instagram,
     label: "INSTAGRAM",
     value: "@vyronexstudio",
-    href: "https://www.instagram.com/vyronexstudio/",
+    href: INSTAGRAM_URL,
     cta: "FOLLOW US",
     glow: "rgba(236,72,153,0.4)",
   },
@@ -58,16 +60,6 @@ const cards = [
     href: "https://github.com/Vijayabhava",
     cta: "OPEN GITHUB",
     glow: "rgba(160,170,255,0.4)",
-  },
-  {
-    icon: Send,
-    label: "TELEGRAM",
-    value: "Direct line",
-    href: `https://t.me/share/url?url=&text=${encodeURIComponent(
-      "Hello VYRONEX STUDIO — I'd like to discuss a project."
-    )}`,
-    cta: "OPEN TELEGRAM",
-    glow: "rgba(0,162,255,0.4)",
   },
 ];
 
